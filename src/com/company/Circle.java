@@ -20,7 +20,7 @@ public class Circle {
     }
 
     public double findCircumference () {
-        return Math.PI * (double) radius;
+        return 2 * Math.PI * (double) radius;
     }
 
     public double findArea () {
